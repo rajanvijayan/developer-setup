@@ -17,8 +17,8 @@ Thank you for considering contributing to this project! Contributions, big or sm
 - Clone your fork to your local machine:
 
 ```bash
-git clone https://github.com/your-username/repository-name.git
-cd repository-name
+git clone https://github.com/rajanvijayan/developer-setup.git
+cd developer-setup
 ```
 
 ### 2. Create a Branch

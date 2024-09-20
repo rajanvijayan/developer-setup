@@ -9,8 +9,8 @@ This repository provides easy-to-use scripts to configure a development environm
 First, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/repository-name.git
-cd repository-name
+git clone https://github.com/rajanvijayan/developer-setup.git
+cd developer-setup
 ```
 
 ### 2. Make the Scripts Executable
