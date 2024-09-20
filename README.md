@@ -2,12 +2,12 @@
 
 This script helps you set up your development environment on a new **macOS** or **Linux** machine. It allows you to manually select and install essential development packages.
 
-**Prerequisites**
+### Prerequisites
 
 •  **macOS** or **Debian-based Linux** (e.g., Ubuntu)
 •  Basic familiarity with Terminal
 
-**How to Run the Script**
+### How to Run the Script**
 
 **Step 1: Download the Script**
 
@@ -43,7 +43,7 @@ Or use bash:
 1.  Enter your name and email for Git configuration.
 2.  Select the packages you wish to install by answering y (yes) or n (no).
 
-**Notes**
+### Notes
 
 •  **SSH Key**: The script generates an SSH key and displays it for you to add to your Git hosting service.
 •  **Package Manager**:
