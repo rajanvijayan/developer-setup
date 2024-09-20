@@ -1,65 +1,54 @@
-## Setup Script for macOS & Linux
+# Setup Scripts for macOS and Linux
 
-This script helps you set up your development environment on a new **macOS** or **Linux** machine. It allows you to manually select and install essential development packages.
+This repository provides easy-to-use scripts to configure a development environment on macOS and Linux, allowing you to manually select the packages to install.
 
-### Prerequisites
+## How to Use
 
-•  **macOS** or **Debian-based Linux** (e.g., Ubuntu)
+### 1. Clone the Repository
 
-•  Basic familiarity with Terminal
+First, clone this repository to your local machine:
 
-### How to Run the Script
+```bash
+git clone https://github.com/your-username/repository-name.git
+cd repository-name
+```
 
-**Step 1: Download the Script**
+### 2. Make the Scripts Executable
 
-Save the mac_setup.sh (for macOS) or linux_setup.sh (for Linux) to your preferred directory.
+Ensure the scripts have execution permissions:
 
-**Step 2: Open Terminal**
+```bash 
+chmod +x run.sh
+```
 
-•  **macOS**: Press Cmd + Space, type **Terminal**, and hit **Enter**.
+### 3. Run the Setup Script
 
-•  **Linux**: Open Terminal from the applications menu.
+Run the run.sh script to detect your operating system (macOS or Linux) and start the relevant setup process:
 
-**Step 3: Navigate to the Directory**
+```bash
+./run.sh
+```
 
-Use the cd command to move to the directory where the script is saved. Example:
+### 4. Select Packages to Install
 
-`cd ~/Desktop`
+You will be prompted to select which packages to install (e.g., PHP, MySQL, Node.js, Angular, Vue.js, Git, etc.). Simply type “y” or “n” to choose the packages you need.
 
-**Step 4: Make the Script Executable**
+### 5. Git and SSH Configuration
 
-Before running, make the script executable:
+During the setup, the script will:
 
-`chmod +x mac_setup.sh   # For macOS`
+- Configure Git settings (username, email).
+- Generate an SSH key for Git services like GitHub or Bitbucket.
 
-`chmod +x linux_setup.sh # For Linux`
+### 6. Post Setup
 
-**Step 5: Run the Script**
+Once the setup is complete, you’ll have a fully configured development environment with your selected packages.
 
-To run the script, use:
+#### Customization
 
-`./mac_setup.sh   # For macOS`
+Feel free to edit the platform-specific setup scripts (mac_setup.sh, linux_setup.sh) to include any additional tools or packages you need.
 
-`./linux_setup.sh # For Linux`
+#### Contributing
 
-Or use bash:
+Contributions are welcome! Please refer to the [CONTRIBUTING.md](https://github.com/rajanvijayan/developer-setup/blob/main/CONTRIBUTING.md) for more information.
 
-`bash mac_setup.sh   # For macOS`
-
-`bash linux_setup.sh # For Linux`
-
-**Step 6: Follow Prompts**
-
-1.  Enter your name and email for Git configuration.
-
-2.  Select the packages you wish to install by answering y (yes) or n (no).
-
-### Notes
-
-•  **SSH Key**: The script generates an SSH key and displays it for you to add to your Git hosting service.
-
-•  **Package Manager**:
-
-•  **macOS**: Uses **Homebrew**.
-
-•  **Linux**: Uses **apt** (for Ubuntu/Debian).

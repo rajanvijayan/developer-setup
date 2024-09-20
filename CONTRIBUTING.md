@@ -104,6 +104,6 @@ Make sure you have the following installed on your machine:
 
 #### Getting Help
 
-If you need any help or have questions regarding contribution, feel free to open an issue or reach out to the maintainers.
+If you need any help or have questions regarding contribution, feel free to open an [issue](https://github.com/rajanvijayan/developer-setup/issues) or reach out to the maintainers.
 
 **We appreciate your time and contributions!**
