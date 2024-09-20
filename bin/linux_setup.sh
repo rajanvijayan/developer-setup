@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Source common functions
-source "$(dirname "$0")/modules/common_packages.sh"
-source "$(dirname "$0")/modules/common_git_ssh.sh"
+source "$(dirname "$0")/../modules/common_packages.sh"
+source "$(dirname "$0")/../modules/common_git_ssh.sh"
 
 # Update package list
 echo "Updating package list..."

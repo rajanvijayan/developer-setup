@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Source common functions
-source "$(dirname "$0")/modules/common_packages.sh"
-source "$(dirname "$0")/modules/common_git_ssh.sh"
+source "$(dirname "$0")/../modules/common_packages.sh"
+source "$(dirname "$0")/../modules/common_git_ssh.sh"
 
 # Install Homebrew if not already installed
 if ! command -v brew &> /dev/null; then
