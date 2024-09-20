@@ -1,4 +1,4 @@
-**Setup Script for macOS & Linux**
+## Setup Script for macOS & Linux
 
 This script helps you set up your development environment on a new **macOS** or **Linux** machine. It allows you to manually select and install essential development packages.
 
