@@ -8,7 +8,7 @@ This script helps you set up your development environment on a new **macOS** or 
 
 •  Basic familiarity with Terminal
 
-### How to Run the Script**
+### How to Run the Script
 
 **Step 1: Download the Script**
 
