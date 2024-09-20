@@ -1,0 +1,24 @@
+# SSH Configuration Template
+
+Host *
+    AddKeysToAgent yes             # Automatically add SSH keys to the agent
+    UseKeychain yes                # macOS-specific, enables keychain support
+    IdentityFile ~/.ssh/id_rsa     # Default SSH key location
+
+# Example for GitHub
+Host github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa_github   # Custom SSH key for GitHub (optional)
+
+# Example for Bitbucket
+Host bitbucket.org
+    HostName bitbucket.org
+    User git
+    IdentityFile ~/.ssh/id_rsa_bitbucket  # Custom SSH key for Bitbucket (optional)
+
+# Example for any other server
+Host myserver.com
+    HostName myserver.com
+    User username                        # Replace 'username' with your actual username
+    IdentityFile ~/.ssh/id_rsa_myserver   # Custom SSH key for this specific server (optional)

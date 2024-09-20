@@ -1,0 +1,28 @@
+[user]
+    name = YOUR_NAME
+    email = YOUR_EMAIL
+
+[core]
+    editor = nano                    # Set default text editor (can be vim, code, etc.)
+    autocrlf = input                 # Handle line endings
+
+[alias]
+    co = checkout                    # Shorthand for git checkout
+    br = branch                      # Shorthand for git branch
+    ci = commit                      # Shorthand for git commit
+    st = status                      # Shorthand for git status
+    last = log -1 HEAD               # Show the last commit
+    lg = log --graph --oneline --decorate --all  # Graph view of the log
+
+[push]
+    default = simple                 # Simple push behavior
+
+[diff]
+    tool = meld                      # Use meld as the diff tool (can change to preferred tool)
+
+[merge]
+    tool = meld                      # Use meld as the merge tool (can change to preferred tool)
+    conflictstyle = diff3
+
+[credential]
+    helper = cache                   # Cache credentials for a short time (can adjust based on needs)
